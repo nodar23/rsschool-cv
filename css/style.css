@@ -1,0 +1,135 @@
+.cv {
+    max-width: 910px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+
+}
+
+h1 {
+    color: rgb(98, 184, 158);
+}
+
+h2 {
+    color: rgb(98, 184, 158);
+}
+
+.contact li {
+    display: inline;
+    font-size: 19px;
+    padding: 2px 10px 2px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(98, 184, 158, 0.22);
+    transition: all linear .2s;
+}
+
+.contact li:hover {
+    box-shadow: 0 3px 3px rgb(98, 184, 158);
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.avatar {
+    width: auto;
+    height: 150px;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.title {
+    font-weight: 450;
+    background-color: rgb(98, 184, 158);
+    color: rgb(255, 255, 255);
+    padding: 2px 5px 2px 5px;
+    border-radius: 3px;
+    box-shadow: 0 3px 3px rgba(98, 184, 158, 0.22);
+}
+
+p,
+.work-education li {
+    margin: 0px;
+    line-height: 1.3;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 1.7;
+    margin: 0px;
+
+}
+
+.ul__item:before,
+.contact li:before {
+    color: rgb(98, 184, 158);
+    content: "●";
+    padding-right: 10px;
+}
+
+.task {
+    font-style: italic;
+}
+
+.code {
+    background-color: rgb(227, 238, 238);
+    text-align: left;
+    margin: 5px 1px 5px 1px;
+    padding: 5px 1px 5px 1px;
+}
+
+.code-keyword {
+    color: rgb(167, 27, 27);
+}
+
+.code-number {
+    color: rgb(167, 27, 27);
+}
+
+.code-function {
+    color: rgb(154, 69, 0);
+}
+
+.code-variable {
+    color: rgb(5, 55, 120);
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(98, 184, 158);
+    padding: 15px 0px 10px 0px;
+    margin-top: 20px;
+    border-radius: 3px;
+    box-shadow: 0 3px 3px rgba(98, 184, 158, 0.22);
+}
+
+.footer__rs-pic {
+    width: 80px;
+    height: auto;
+}
+
+.footer__product-year {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.footer__github-pic {
+    width: 10px;
+    height: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
