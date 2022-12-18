@@ -1,1 +1,1 @@
-# rsschool-cv
+https://nodar23.github.io/rsschool-cv/
