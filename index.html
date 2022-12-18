@@ -5,11 +5,112 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <title>CV</title>
+    <link rel="icon" type="image/x-icon" href="/img/avatar.png">
 </head>
 
 <body>
+    <div class="cv">
+        <header>
+            <div class="header-column">
+                <h1>Nodari Makharadze</h1>
+                <h2>junior frontend developer</h2>
+                <ul class="contact">
+                    <li class="li-github"><a href="https://github.com/nodar23">github</a>
+                    </li>
+                    <li class="li-codewars"><a href="https://www.codewars.com/users/nodar23">codewars</a></li>
+                    <li class="li-discord"><a href="https://discordapp.com/users/722297265200431184/">discord</a></li>
+                </ul>
+            </div>
+            <div class="header-column">
+                <img class="avatar" src="/img/avatar.png" alt="avatar">
+            </div>
+        </header>
 
+        <main>
+            <div class="main">
+                <div class="summary">
+                    <h3><span class="title">Summary:</span></h3>
+                    <p>At school and university I always liked mathematics. After completing my job in banking,
+                        I&nbsp;began
+                        to
+                        earn money on daytrading by analyzing prices and data in different world markets. At the same
+                        time,
+                        I&nbsp;became interested in programming. I tried to watch materials on YouTube and other
+                        resources.
+                        Now I&nbsp;plan to finish RS-school and find a job as a junior.</p>
+                </div>
+
+                <div class="skills">
+                    <h3><span class="title">Skills:</span></h3>
+                    <ul>
+                        <li class="ul__item">HTML5, CSS3 (basics)</li>
+                        <li class="ul__item">JavaScript (basics)</li>
+                        <li class="ul__item">Git, Github</li>
+                        <li class="ul__item">Visual Studio Code</li>
+                    </ul>
+                </div>
+
+                <div class="code-example">
+                    <h3><span class="title">Code example:</span></h3>
+                    <p class="task">Task: "Given an integer as input, can you round it to the next (meaning, greater
+                        than or
+                        equal) multiple of 5?"</p>
+                    <div class="code">
+                        <code>
+                                <span class="code-keyword">function</span> <span class="code-function">roundToNext5</span>(<span class="code-function">n</span>) {<br><span class="code-keyword">&nbsp; return</span> Math.ceil(<span class="code-variable">n</span> / <span class="code-number">5</span>) * <span class="code-number">5</span>;<br>}
+                            </code>
+                    </div>
+                </div>
+
+                <div class="projects">
+                    <h3><span class="title">Projects:</span></h3>
+                    <a href="https://nodar23.github.io/rsschool-cv/">this Curriculum Vitae</a>
+                </div>
+                <div class="work-education">
+                    <h3><span class="title">Work experience:</span></h3>
+                    <p>I have experience as a banking manager and trader in the stock market</p>
+
+                    <h3><span class="title">Education:</span></h3>
+                    <ul>
+                        <li class="ul__item">Russian Customs Academy, Economics Department, specialty - Economy and
+                            management at the
+                            enterprise, qualification - Economist-manager (Vladivostok, Russia, 2009-2014)</li>
+                        <li class="ul__item">Sberbank Corporate University, Front-end developer course (online, from
+                            2022 to the present)</li>
+                    </ul>
+
+                    <h3><span class="title">Professional Certificates:</span></h3>
+                    <p>Certificate completion of Basics of web page layout (online course - LLC Netology, Russia, July
+                        2022)</p>
+                </div>
+                <div class="languages">
+                    <h3><span class="title">Languages:</span></h3>
+                    <ul>
+                        <li class="ul__item">English - intermediate</li>
+                        <li class="ul__item">Russian - native</li>
+                        <li class="ul__item">Georgian - upper intermediate</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer__column">
+                <a class="footer__github-pic" href="https://github.com/nodar23"><img src="/img/github-logo.png"
+                        width="29" height="28" alt="github-logo"></a>
+            </div>
+            <div class="footer__column">
+                <a href="https://rs.school/js-stage0/"> <img class="footer__rs-pic" src="/img/rs_school_logo.png"
+                        width="55" height="20" alt="rs-logo"></a>
+
+            </div>
+            <div class="footer__column">
+                <p class="footer__product-year">© 2022</p>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
